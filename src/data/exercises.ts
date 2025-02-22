@@ -1,4 +1,20 @@
 import { Exercise } from '../types';
+//# Contribuindo com Exercícios
+
+//Se você está interessado em contribuir com mais exercícios ou melhorar os existentes, este guia fornecerá as instruções necessárias para adicionar e modificar os exercícios corretamente.
+
+// Exercícios Disponíveis
+
+///Os exercícios são representados por objetos que contêm informações como:
+
+//- `id`: Identificador único do exercício
+//- `name`: Nome do exercício
+//- `muscleGroup`: Grupo muscular que o exercício trabalha
+//- `image`: URL de uma imagem ilustrativa do exercício
+//- `videoUrl`: URL de um vídeo explicativo do exercício  o padrao tem que ser https://www.youtube.com/embed/ e depois o id do video, clique no botao compartilhar e depois embed que aparece o link
+//- `instructions`: Passo a passo de como realizar o exercício
+//- `safetyTips`: Dicas de segurança para realizar o exercício corretamente
+//- `repetitions`: Quantidade de séries e repetições recomendadas
 
 export const exercises: Exercise[] = [
   {
