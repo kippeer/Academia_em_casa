@@ -1,6 +1,6 @@
 # 🏋️‍♂️ Treino em Casa
 
-![Treino em Casa Preview](https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80)
+![Treino em Casa Preview](https://sportlife.com.br/wp-content/uploads/2024/01/Shutterstock_1428376907-1.jpg)
 
 Uma aplicação web moderna para ajudar pessoas a se exercitarem em casa, oferecendo uma biblioteca completa de exercícios com instruções detalhadas, vídeos demonstrativos e dicas de segurança.
 
