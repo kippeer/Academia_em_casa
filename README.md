@@ -27,7 +27,7 @@ Uma aplicação web moderna para ajudar pessoas a se exercitarem em casa, oferec
 
 1. Clone o repositório
    ```bash
-   git clone https://github.com/seu-usuario/treino-em-casa.git
+   git clone https://github.com/kippeer/Academia_em_casa.git
    ```
 
 2. Instale as dependências
@@ -76,17 +76,15 @@ Cada exercício inclui:
 - [ ] Modo offline
 - [ ] Notificações e lembretes
 
-## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 👥 Contribuição
 
-Contribuições são sempre bem-vindas! Por favor, leia o [guia de contribuição](CONTRIBUTING.md) primeiro.
+Contribuições são sempre bem-vindas! 
 
 ## 📞 Suporte
 
-Se você encontrar algum problema ou tiver sugestões, por favor abra uma [issue](https://github.com/seu-usuario/treino-em-casa/issues).
+Se você encontrar algum problema ou tiver sugestões, por favor abra uma [issue](https://github.com/kippeer/Academia_em_casa/issues).
 
 ---
 
