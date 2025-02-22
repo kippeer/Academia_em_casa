@@ -5,134 +5,77 @@ export const exercises: Exercise[] = [
     id: '1',
     name: 'Flexão de Braço',
     muscleGroup: 'peito',
-    image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80',
-    videoUrl: 'https://www.youtube.com/embed/jZmOquLOmzI',
+    image: 'https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?w=800&q=80',
+    videoUrl: 'https://www.youtube.com/embed/dHgoYiCraCw?si=CaAgqFyKYsWNsRFy',
     instructions: [
-      'Posicione-se em posição de prancha com os braços estendidos',
-      'Mantenha as costas retas e o core contraído',
-      'Flexione os cotovelos, descendo o peito em direção ao chão',
-      'Retorne à posição inicial empurrando o corpo para cima'
+      'Apoie as mãos no chão na largura dos ombros',
+      'Mantenha o corpo reto, formando uma linha reta dos pés à cabeça',
+      'Flexione os cotovelos até o peito quase tocar o chão',
+      'Empurre o corpo de volta à posição inicial'
     ],
     safetyTips: [
-      'Mantenha os cotovelos próximos ao corpo',
-      'Não deixe o quadril cair durante o movimento',
-      'Respire de forma controlada durante o exercício'
+      'Mantenha o core contraído durante todo o movimento',
+      'Não deixe os cotovelos abrirem muito para os lados',
+      'Mantenha o pescoço alinhado com a coluna'
     ],
-    repetitions: '3 séries de 10-12 repetições'
+    repetitions: '3 séries de 8-12 repetições'
   },
   {
     id: '2',
-    name: 'Agachamento',
+    name: 'Agachamento Livre',
     muscleGroup: 'pernas',
-    image: 'https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&q=80',
-    videoUrl: 'https://www.youtube.com/embed/aclHkVaku9U',
+    image: 'https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/09/exercicio-de-agachamento-livre.jpg?w=1024',
+    videoUrl: 'https://www.youtube.com/embed/86ZW7tmmLuU?si=KTy5WaKBv3CTYvlA',
     instructions: [
-      'Posicione os pés na largura dos ombros',
-      'Mantenha o peito erguido e as costas retas',
-      'Flexione os joelhos como se fosse sentar em uma cadeira',
-      'Retorne à posição inicial empurrando através dos calcanhares'
+      'Pés na largura dos ombros, levemente voltados para fora',
+      'Inicie o movimento empurrando o quadril para trás',
+      'Desça até as coxas ficarem paralelas ao chão',
+      'Mantenha o peito erguido e a coluna neutra'
     ],
     safetyTips: [
-      'Mantenha os joelhos alinhados com os pés',
-      'Não deixe os joelhos ultrapassarem a ponta dos pés',
-      'Mantenha os calcanhares no chão durante todo o movimento'
+      'Joelhos alinhados com os dedos dos pés',
+      'Mantenha os calcanhares no chão',
+      'Evite curvar a coluna para frente'
     ],
-    repetitions: '4 séries de 15 repetições'
+    repetitions: '4 séries de 12-15 repetições'
   },
   {
     id: '3',
-    name: 'Prancha Abdominal',
+    name: 'Prancha',
     muscleGroup: 'abdomen',
     image: 'https://images.unsplash.com/photo-1566241142559-40e1dab266c6?w=800&q=80',
-    videoUrl: 'https://www.youtube.com/embed/ASdvN_XEl_c',
+    videoUrl: 'https://www.youtube.com/embed/qNRqGqESAWU?si=LgGT-hFQzgksnb3W',
     instructions: [
-      'Apoie os antebraços no chão, alinhados com os ombros',
-      'Estenda as pernas para trás, apoiando-se nas pontas dos pés',
-      'Mantenha o corpo em linha reta da cabeça aos calcanhares',
-      'Contraia o abdômen e mantenha a posição'
+      'Apoie os antebraços no chão, cotovelos sob os ombros',
+      'Mantenha o corpo em linha reta',
+      'Contraia o abdômen e os glúteos',
+      'Respire normalmente mantendo a posição'
     ],
     safetyTips: [
-      'Não deixe o quadril cair ou subir',
-      'Mantenha a respiração constante',
-      'Pare se sentir dor nas costas'
+      'Evite arquear as costas',
+      'Não deixe o quadril cair',
+      'Mantenha o olhar direcionado para baixo'
     ],
-    repetitions: '3 séries de 30-60 segundos'
-  },
-  {
+    repetitions: '3 séries de 30-45 segundos'
+  },{
     id: '4',
-    name: 'Remada com Toalha',
-    muscleGroup: 'costas',
-    image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80',
-    videoUrl: 'https://www.youtube.com/embed/rUGZwSa9WUE',
+    name: 'Burpee',
+    muscleGroup: 'corpo inteiro',
+    image: 'https://venatio.com.br/images/noticias/4/burpee.jpg',
+    videoUrl: 'https://www.youtube.com/embed/am8r0CH2X74',
     instructions: [
-      'Coloque uma toalha resistente sob uma mesa ou móvel fixo',
-      'Segure as pontas da toalha e sente-se no chão',
-      'Mantenha os braços estendidos e as costas retas',
-      'Puxe a toalha em direção ao abdômen, contraindo as costas',
-      'Retorne lentamente à posição inicial'
+      'Fique em pé com os pés na largura dos ombros',
+      'Agache e coloque as mãos no chão',
+      'Pule com os pés para trás, entrando na posição de prancha',
+      'Realize uma flexão de braço (opcional)',
+      'Traga os pés de volta para a posição de agachamento',
+      'Salte explosivamente para cima'
     ],
     safetyTips: [
-      'Mantenha os cotovelos próximos ao corpo',
-      'Evite movimentos bruscos',
-      'Certifique-se que o móvel está bem fixo'
+      'Mantenha o core contraído durante o movimento',
+      'Realize o movimento de forma controlada',
+      'Evite impactar as articulações ao aterrissar'
     ],
-    repetitions: '3 séries de 12-15 repetições'
-  },
-  {
-    id: '5',
-    name: 'Extensão de Tríceps na Cadeira',
-    muscleGroup: 'bracos',
-    image: 'https://images.unsplash.com/photo-1597452485669-2c7bb5fef90d?w=800&q=80',
-    videoUrl: 'https://www.youtube.com/embed/6kALZikXxLc',
-    instructions: [
-      'Posicione-se de costas para uma cadeira estável',
-      'Apoie as mãos na borda do assento, dedos apontando para frente',
-      'Flexione os cotovelos, baixando o corpo em direção ao chão',
-      'Estenda os braços, retornando à posição inicial'
-    ],
-    safetyTips: [
-      'Mantenha os cotovelos apontando para trás',
-      'Use uma cadeira firme e estável',
-      'Não trave os cotovelos no topo do movimento'
-    ],
-    repetitions: '3 séries de 12-15 repetições'
-  },
-  {
-    id: '6',
-    name: 'Elevação de Panturrilha',
-    muscleGroup: 'pernas',
-    image: 'https://images.unsplash.com/photo-1434608519344-49d77a699e1d?w=800&q=80',
-    videoUrl: 'https://www.youtube.com/embed/gwLzBJYoWlI',
-    instructions: [
-      'Fique em pé com os pés afastados na largura dos quadris',
-      'Eleve os calcanhares do chão, ficando na ponta dos pés',
-      'Mantenha a posição por um segundo',
-      'Desça controladamente de volta à posição inicial'
-    ],
-    safetyTips: [
-      'Mantenha o equilíbrio usando uma parede ou cadeira se necessário',
-      'Evite balançar o corpo durante o movimento',
-      'Faça o movimento de forma controlada'
-    ],
-    repetitions: '3 séries de 20 repetições'
-  },
-  {
-    id: '7',
-    name: 'Abdominal Bicicleta',
-    muscleGroup: 'abdomen',
-    image: 'https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?w=800&q=80',
-    videoUrl: 'https://www.youtube.com/embed/1we3bh9uhqY',
-    instructions: [
-      'Deite-se de costas com as mãos atrás da cabeça',
-      'Eleve as pernas do chão, dobrando os joelhos',
-      'Alterne tocando o cotovelo no joelho oposto',
-      'Mantenha o movimento fluido e controlado'
-    ],
-    safetyTips: [
-      'Não puxe o pescoço com as mãos',
-      'Mantenha o baixo das costas pressionado contra o chão',
-      'Respire de forma ritmada durante o exercício'
-    ],
-    repetitions: '3 séries de 20 repetições (cada lado)'
+    repetitions: '3 séries de 10-15 repetições'
   }
 ];
