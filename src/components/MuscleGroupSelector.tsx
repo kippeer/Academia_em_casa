@@ -14,6 +14,7 @@ export const muscleGroups: { id: MuscleGroup | 'todos'; label: string }[] = [
   { id: 'costas', label: 'Costas' },
   { id: 'peito', label: 'Peito' },
   { id: 'abdomen', label: 'Abdômen' },
+  { id: 'cardio', label: 'Cardio' }
 ];
 
 export function MuscleGroupSelector({

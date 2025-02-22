@@ -77,7 +77,7 @@ export const exercises: Exercise[] = [
   {
     id: '4',
     name: 'Burpee',
-    muscleGroup: 'corpo inteiro',
+    muscleGroup: 'cardio',
     image: 'https://venatio.com.br/images/noticias/4/burpee.jpg',
     videoUrl: 'https://www.youtube.com/embed/am8r0CH2X74',
     instructions: [
@@ -189,5 +189,362 @@ export const exercises: Exercise[] = [
       'Respire normalmente durante a manutenção da posição.'
     ],
     repetitions: '2 séries de 30 segundos de cada lado'
+  },{
+    id: '10',
+    name: 'Caminhada Estacionária',
+    muscleGroup: 'cardio',
+    image: 'https://s2-ge.glbimg.com/s71k70k8MXSuASkFCWJhbAjwzNc=/0x0:1212x866/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/H/h/Gd0HxBQQOtK8e5qwR2sw/simulacao-corrida-em-casa.jpg',
+    videoUrl: 'https://www.youtube.com/embed/DkOctBqJJlI',
+    instructions: [
+      'Fique em pé com os pés afastados na largura dos ombros.',
+      'Levante um joelho até a altura do quadril enquanto balança o braço oposto para frente.',
+      'Alterne rapidamente para a outra perna, simulando uma caminhada no lugar.',
+      'Mantenha um ritmo constante e respire regularmente durante o exercício.'
+    ],
+    safetyTips: [
+      'Use calçados adequados para absorver o impacto.',
+      'Mantenha o abdômen contraído para apoiar a coluna.',
+      'Aterre suavemente no chão para minimizar o impacto nas articulações.'
+    ],
+    repetitions: '3 séries de 1 minuto cada'
+  },{
+    id: '11',
+    name: 'Mountain Climbers',
+    muscleGroup: 'abdomen',
+    image: 'https://i.ytimg.com/vi/cnyTQDSE884/maxresdefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/cnyTQDSE884?si=hvKj_6oHBWijC04-',
+    instructions: [
+      'Comece na posição de prancha alta, com as mãos alinhadas aos ombros e o corpo formando uma linha reta dos ombros aos calcanhares.',
+      'Leve o joelho direito em direção ao peito, mantendo o core contraído e as costas retas.',
+      'Retorne o pé direito à posição inicial enquanto traz o joelho esquerdo em direção ao peito.',
+      'Alterne rapidamente as pernas, simulando uma corrida no lugar, mantendo o ritmo constante.'
+    ],
+    safetyTips: [
+      'Mantenha as mãos firmes no chão e os ombros estáveis durante todo o exercício.',
+      'Evite levantar o quadril; mantenha o corpo alinhado.',
+      'Controle a respiração e o movimento para evitar lesões.'
+    ],
+    repetitions: '3 séries de 30 segundos cada'
+  }, {
+    id: '12',
+    name: 'Remada com Toalha',
+    muscleGroup: 'costas',
+    image: 'https://i.ytimg.com/vi/uLDXbceMomc/maxresdefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/uLDXbceMomc',
+    instructions: [
+      'Sente-se no chão com as pernas estendidas à frente.',
+      'Enrole uma toalha ao redor dos pés, segurando uma extremidade em cada mão.',
+      'Mantenha as costas retas e puxe a toalha em direção ao seu tronco, dobrando os cotovelos para trás.',
+      'Retorne à posição inicial de forma controlada.'
+    ],
+    safetyTips: [
+      'Mantenha o abdômen contraído para proteger a coluna.',
+      'Evite curvar os ombros para frente durante o movimento.',
+      'Realize o movimento de forma lenta e controlada.'
+    ],
+    repetitions: '3 séries de 12 repetições'
+  },
+
+  {
+    id: '13',
+    name: 'Alongamento de Isquiotibiais com Toalha',
+    muscleGroup: 'posterior da coxa',
+    image: 'https://i.ytimg.com/vi/V-zQZ0MTTvM/maxresdefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/V-zQZ0MTTvM',
+    instructions: [
+      'Deite-se de costas com uma perna estendida no chão e a outra levantada.',
+      'Enrole uma toalha ao redor do pé da perna levantada, segurando as extremidades com as mãos.',
+      'Puxe suavemente a perna em direção ao seu tronco, mantendo-a reta.',
+      'Mantenha a posição por alguns segundos e depois troque de perna.'
+    ],
+    safetyTips: [
+      'Não force além do seu limite de flexibilidade.',
+      'Mantenha a perna de apoio pressionada contra o chão.',
+      'Respire profundamente durante o alongamento.'
+    ],
+    repetitions: '2 séries de 30 segundos para cada perna'
+  },
+  
+  {
+    id: '14',
+    name: 'Alongamento Cervical com Toalha',
+    muscleGroup: 'pescoço',
+    image: 'https://i.ytimg.com/vi/u5KhhqzG3pI/maxresdefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/u5KhhqzG3pI',
+    instructions: [
+      'Sente-se com a postura ereta e enrole uma toalha ao redor da parte posterior da cabeça.',
+      'Segure as extremidades da toalha à frente do corpo.',
+      'Puxe suavemente a toalha para frente, inclinando o queixo em direção ao peito.',
+      'Mantenha o alongamento por alguns segundos e depois relaxe.'
+    ],
+    safetyTips: [
+      'Aplique uma pressão suave para evitar lesões.',
+      'Mantenha os ombros relaxados durante o alongamento.',
+      'Respire profundamente e evite movimentos bruscos.'
+    ],
+    repetitions: '2 séries de 15 segundos'
+  },{
+    id: '15',
+    name: 'Flexão Inclinada',
+    muscleGroup: 'peito',
+    image: 'https://www.mundoboaforma.com.br/wp-content/uploads/2020/12/flexao-de-bracos-inclinada.gif',
+    videoUrl: 'https://www.youtube.com/embed/so5nuzZWwmI',
+    instructions: [
+      'Posicione as mãos em uma superfície elevada (banco ou mesa).',
+      'Mantenha o corpo alinhado e reto.',
+      'Flexione os cotovelos, aproximando o peito da superfície.',
+      'Empurre o corpo de volta até a posição inicial.'
+    ],
+    safetyTips: [
+      'Mantenha o core ativado para proteger a coluna.',
+      'Não deixe o corpo desalinhar durante o movimento.'
+    ],
+    repetitions: '3 séries de 10-12 repetições'
+  },
+  {
+    id: '16',
+    name: 'Afundo com Salto',
+    muscleGroup: 'pernas',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8mb22IRJBMA9ig9ts_252MDxcA9xoEK6yrw&s',
+    videoUrl: 'https://www.youtube.com/embed/7Vib0eOjJFo?si=bQFijDNCmNBb92Nq',
+    instructions: [
+      'Comece em posição de afundo, com uma perna à frente e outra atrás.',
+      'Impulsione o corpo para cima realizando um salto e troque a posição das pernas no ar.',
+      'Aterre suavemente e repita o movimento alternando as pernas.'
+    ],
+    safetyTips: [
+      'Realize o movimento de forma controlada para minimizar o impacto nas articulações.',
+      'Mantenha o joelho da frente alinhado com o pé durante a aterrissagem.'
+    ],
+    repetitions: '3 séries de 8-10 repetições por perna'
+  },
+  {
+    id: '17',
+    name: 'Prancha com Toque no Ombro',
+    muscleGroup: 'abdomen',
+    image: 'https://i.ytimg.com/vi/Hy-YhHE7t3c/maxresdefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/Hy-YhHE7t3c?si=2TtBUyuM4ZS8WDrZ',
+    instructions: [
+      'Inicie na posição de prancha alta, com o corpo alinhado.',
+      'Sem mover os quadris, toque com a mão direita o ombro esquerdo.',
+      'Retorne à posição inicial e repita com a mão oposta.',
+      'Continue alternando os toques, mantendo a estabilidade do core.'
+    ],
+    safetyTips: [
+      'Mantenha o core firme para evitar balanço excessivo do corpo.',
+      'Realize o movimento de forma lenta e controlada.'
+    ],
+    repetitions: '3 séries de 20 toques (10 para cada lado)'
+  },
+  {
+    id: '18',
+    name: 'Salto Vertical com Impulso',
+    muscleGroup: 'pernas',
+    image: 'https://www.wikihow.com/images_en/thumb/9/9d/Increase-Your-Vertical-Leap-Step-8-Version-6.jpg/550px-nowatermark-Increase-Your-Vertical-Leap-Step-8-Version-6.jpg',
+    videoUrl: 'https://www.youtube.com/embed/sXhwcq7BwL0?si=rMJLYmyNjYr4IL7H',
+    instructions: [
+      'Fique em pé com os pés afastados na largura dos ombros.',
+      'Agache-se levemente e, em seguida, exploda para cima, tentando alcançar a máxima altura possível.',
+      'Aterre suavemente, com os joelhos levemente flexionados, e retorne à posição inicial.'
+    ],
+    safetyTips: [
+      'Aterre com os joelhos flexionados para absorver o impacto.',
+      'Mantenha a postura correta durante o salto para evitar lesões.'
+    ],
+    repetitions: '3 séries de 8-10 saltos'
+  },
+  {
+    id: '19',
+    name: 'Shadowboxing',
+    muscleGroup: 'cardio',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvIJ9GP_5QFDcH58N4bsYW_dMxwRQ07eJArg&s',
+    videoUrl: 'https://www.youtube.com/embed/KlRBgNgvEYU',
+    instructions: [
+      'Fique em pé com postura ereta e os pés na largura dos ombros.',
+      'Movimente os braços realizando socos no ar, como se estivesse enfrentando um oponente.',
+      'Mantenha o ritmo e a fluidez dos movimentos durante o exercício.'
+    ],
+    safetyTips: [
+      'Mantenha os movimentos controlados para evitar sobrecarga nos ombros.',
+      'Ative o core para manter a estabilidade do corpo durante o exercício.'
+    ],
+    repetitions: '3 séries de 1 minuto'
+  },{
+    id: '20',
+    name: 'Rosca Bíceps com Mochila',
+    muscleGroup: 'bracos',
+    image: 'https://www.mundoboaforma.com.br/wp-content/uploads/2020/04/rosca-biceps-com-toalha-e-mochila.jpg',
+    videoUrl: 'https://www.youtube.com/embed/vbEd1Hv4qLg?si=gUIEY4M3BkybVvC8',
+    instructions: [
+      'Com o auxio de uma toalha segure a mochila com ambas as mãos, com os braços estendidos ao lado do corpo.',
+      'Flexione os cotovelos, elevando a mochila em direção aos ombros.',
+      'Mantenha os cotovelos fixos durante o movimento.',
+      'Retorne à posição inicial de forma controlada.'
+    ],
+    safetyTips: [
+      'Mantenha o core contraído para estabilidade.',
+      'Evite movimentos bruscos para proteger as articulações.'
+    ],
+    repetitions: '3 séries de 10-12 repetições'
+  },
+  {
+    id: '21',
+    name: 'Tríceps no Sofá',
+    muscleGroup: 'bracos',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9eY5UBvYfVuD9LZkuhhsFs50jDPgzjHzUeQ&s',
+    videoUrl: 'https://www.youtube.com/embed/K3rbxUi0qTk',
+    instructions: [
+      'Sente-se na beira do sofá e posicione as mãos na borda, ao lado do corpo.',
+      'Deslize o corpo para frente, flexionando os cotovelos para baixar o tronco.',
+      'Estenda os braços para retornar à posição inicial.'
+    ],
+    safetyTips: [
+      'Mantenha os ombros relaxados e o core firme.',
+      'Não desça além do confortável para evitar sobrecarga nos cotovelos.'
+    ],
+    repetitions: '3 séries de 10-15 repetições'
+  },
+  {
+    id: '22',
+    name: "Tríceps Testa com Garrafa d'Água",
+    muscleGroup: 'bracos',
+    image: 'https://i.ytimg.com/vi/fSaBjlu1MMc/sddefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/XhQ4CEDAgEY',
+    instructions: [
+      'Deite-se em um colchonete com os pés apoiados no chão.',
+      "Segure uma garrafa d'água com as duas mãos, com os braços estendidos acima da cabeça.",
+      'Flexione os cotovelos para abaixar a garrafa em direção à testa.',
+      'Estenda os braços para voltar à posição inicial.'
+    ],
+    safetyTips: [
+      'Mantenha os cotovelos fixos e próximos à cabeça.',
+      'Realize o movimento de forma controlada para evitar lesões.'
+    ],
+    repetitions: '3 séries de 10-12 repetições'
+  },
+  {
+    id: '23',
+    name: "Kickback de Tríceps com Garrafa d'Água",
+    muscleGroup: 'bracos',
+    image: 'https://static.vecteezy.com/ti/vetor-gratis/p1/26751874-mulher-fazendo-dobrado-sobre-duplo-braco-triceps-propinas-com-agua-garrafa-exercicio-vetor.jpg',
+    videoUrl: 'https://www.youtube.com/embed/4wL2M8FXnmA',
+    instructions: [
+      'Apoie um joelho e uma mão em um banco ou cadeira para estabilidade.',
+      'Com a outra mão, segure a garrafa d\'água com o braço dobrado a 90 graus.',
+      'Estenda o braço para trás até a completa extensão.',
+      'Retorne lentamente à posição inicial e repita para o outro braço.'
+    ],
+    safetyTips: [
+      'Mantenha o tronco estável para evitar balanço.',
+      'Realize o movimento lentamente para garantir o controle do exercício.'
+    ],
+    repetitions: '3 séries de 10-12 repetições por braço'
+  },
+  {
+    id: '24',
+    name: "Rosca Martelo com Garrafa d'Água",
+    muscleGroup: 'bracos',
+    image: 'https://i.ytimg.com/vi/_mcx3jyr1lg/maxresdefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/_mcx3jyr1lg?si=su2F6fAuEZeGPAnG',
+    instructions: [
+      "Segure uma garrafa d'água em cada mão, com os braços ao lado do corpo e palmas voltadas uma para a outra.",
+      'Flexione os cotovelos mantendo essa posição até que os antebraços fiquem paralelos ao chão.',
+      'Retorne à posição inicial de forma controlada.'
+    ],
+    safetyTips: [
+      'Mantenha os cotovelos próximos ao corpo durante o movimento.',
+      'Evite balanço do tronco e realize o movimento de forma controlada.'
+    ],
+    repetitions: '3 séries de 10-12 repetições'
+  },{
+    id: '25',
+    name: 'Superman',
+    muscleGroup: 'costas',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMZ1Xc7JdXXu7GQeUoWLqzapm9kAAiZffp1g&s',
+    videoUrl: 'https://www.youtube.com/embed/3so4r5DFcJI',
+    instructions: [
+      'Deite-se de bruços com os braços estendidos à frente.',
+      'Eleve simultaneamente braços, peito e pernas do chão, contraindo os músculos das costas.',
+      'Mantenha a posição por alguns segundos.',
+      'Retorne lentamente à posição inicial.'
+    ],
+    safetyTips: [
+      'Mantenha o pescoço alinhado com a coluna.',
+      'Realize o movimento de forma controlada para evitar lesões.'
+    ],
+    repetitions: '3 séries de 12-15 repetições'
+  },
+  {
+    id: '26',
+    name: 'Remada Unilateral com Garrafa d\'Água',
+    muscleGroup: 'costas',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPXpeBtC1HS8XaaYkTUTkXnR-hWd4Ay8mQ4Q&s',
+    videoUrl: 'https://www.youtube.com/embed/5Gn2mPYlyRM?si=emcw7EDxSI969ee0',
+    instructions: [
+      'Apoie um joelho e a mão do mesmo lado em um banco ou cadeira para estabilidade.',
+      'Segure uma garrafa d\'água com a mão oposta, mantendo o braço estendido.',
+      'Puxe a garrafa em direção ao quadril, contraindo os músculos das costas.',
+      'Retorne à posição inicial de forma controlada e repita para o outro lado.'
+    ],
+    safetyTips: [
+      'Mantenha a postura ereta durante o movimento.',
+      'Ative o core para garantir estabilidade e evitar sobrecarga na coluna.'
+    ],
+    repetitions: '3 séries de 10-12 repetições por lado'
+  },
+  {
+    id: '27',
+    name: 'Puxada com Toalha',
+    muscleGroup: 'costas',
+    image: 'https://www.mundoboaforma.com.br/wp-content/uploads/2021/09/puxada-em-pe-com-a-toalha.gif',
+    videoUrl: 'https://www.youtube.com/embed/5OEPwjUcIME',
+    instructions: [
+      'Prenda uma toalha resistente em um ponto fixo, como uma maçaneta ou poste.',
+      'Segure as extremidades da toalha com ambas as mãos.',
+      'Puxe seu corpo em direção ao ponto fixo, ativando os músculos das costas.',
+      'Retorne lentamente à posição inicial.'
+    ],
+    safetyTips: [
+      'Certifique-se de que a toalha esteja bem fixada para evitar acidentes.',
+      'Mantenha o core ativado durante o exercício para proteção da coluna.'
+    ],
+    repetitions: '3 séries de 8-10 repetições'
+  },
+  {
+    id: '28',
+    name: 'Hiperextensão Lombar no Chão',
+    muscleGroup: 'costas',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIr9vw9HdjWbWE6RhUXhizODAiDgvtCxHJoQ&s',
+    videoUrl: 'https://www.youtube.com/embed/jcQCfZ3saUo?si=8ucoeQzsc09r8cZx',
+    instructions: [
+      'Deite-se de bruços com as mãos atrás da cabeça ou estendidas à frente.',
+      'Eleve o tronco, contraindo os músculos lombares.',
+      'Mantenha a posição por um breve momento.',
+      'Retorne lentamente à posição inicial.'
+    ],
+    safetyTips: [
+      'Evite elevar demais o tronco para não sobrecarregar a região lombar.',
+      'Realize o movimento de forma controlada e com foco na contração dos músculos das costas.'
+    ],
+    repetitions: '3 séries de 12-15 repetições'
+  },
+  {
+    id: '29',
+    name: 'Prancha Invertida',
+    muscleGroup: 'costas',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvlXasWV2Cvl_8pwVWDLwMTACFpdWeBLwLOg&s',
+    videoUrl: 'https://www.youtube.com/embed/3RIbXVRlKAQ',
+    instructions: [
+      'Sente-se no chão com as pernas estendidas e as mãos posicionadas atrás de você.',
+      'Eleve o corpo, mantendo uma linha reta dos ombros aos calcanhares.',
+      'Mantenha a posição, contraindo os músculos das costas e do core.',
+      'Retorne lentamente à posição inicial.'
+    ],
+    safetyTips: [
+      'Certifique-se de que os ombros estejam alinhados para evitar sobrecarga.',
+      'Mantenha o core firme durante todo o movimento.'
+    ],
+    repetitions: '3 séries de 30-45 segundos'
   }
+
 ];
