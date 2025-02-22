@@ -8,11 +8,11 @@ interface ExerciseCardProps {
   onToggleFavorite: (id: string) => void;
 }
 
-export const ExerciseCard: React.FC<ExerciseCardProps> = ({
+export function ExerciseCard({
   exercise,
   isFavorite,
   onToggleFavorite,
-}) => {
+}: ExerciseCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
       <div className="relative">
@@ -79,4 +79,4 @@ export const ExerciseCard: React.FC<ExerciseCardProps> = ({
       </div>
     </div>
   );
-};
+}

@@ -57,7 +57,8 @@ export const exercises: Exercise[] = [
       'Mantenha o olhar direcionado para baixo'
     ],
     repetitions: '3 séries de 30-45 segundos'
-  },{
+  },
+  {
     id: '4',
     name: 'Burpee',
     muscleGroup: 'corpo inteiro',
@@ -77,7 +78,8 @@ export const exercises: Exercise[] = [
       'Evite impactar as articulações ao aterrissar'
     ],
     repetitions: '3 séries de 10-15 repetições'
-  },{
+  },
+  {
     id: '5',
     name: 'Polichinelo',
     muscleGroup: 'cardio',
@@ -99,7 +101,7 @@ export const exercises: Exercise[] = [
   {
     id: '6',
     name: 'Abdominal Remador',
-    muscleGroup: 'abdômen',
+    muscleGroup: 'abdomen',
     image: 'https://totalpass.com/wp-content/uploads/2024/11/abdominal-remador-1.jpg',
     videoUrl: 'https://www.youtube.com/embed/tGSHCWHi9P0',
     instructions: [
@@ -156,7 +158,7 @@ export const exercises: Exercise[] = [
   {
     id: '9',
     name: 'Prancha Lateral',
-    muscleGroup: 'abdômen oblíquo',
+    muscleGroup: 'abdomen',
     image: 'https://blog.ciaathletica.com.br/wp-content/uploads/2023/10/Cia-Athletica-Nacional-Prancha-lateral-Autores-Grupo-S2-Marketing-Freepik.jpg',
     videoUrl: 'https://www.youtube.com/embed/7wwAHCQvgcw',
     instructions: [
@@ -172,5 +174,4 @@ export const exercises: Exercise[] = [
     ],
     repetitions: '2 séries de 30 segundos de cada lado'
   }
-  
 ];
