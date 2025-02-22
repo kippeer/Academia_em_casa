@@ -103,7 +103,7 @@ export const exercises: Exercise[] = [
     name: 'Abdominal Remador',
     muscleGroup: 'abdomen',
     image: 'https://totalpass.com/wp-content/uploads/2024/11/abdominal-remador-1.jpg',
-    videoUrl: 'https://www.youtube.com/embed/tGSHCWHi9P0',
+    videoUrl: 'https://www.youtube.com/embed/2ephPjg2CZs',
     instructions: [
       'Deite-se de costas com os braços estendidos atrás da cabeça e as pernas retas.',
       'Simultaneamente, eleve o tronco e as pernas, tentando tocar os pés com as mãos.',
